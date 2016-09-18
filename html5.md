@@ -22,9 +22,9 @@ https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5
  * aside：元素中连接到页面中其他部分的内容，被认为是独立于该内容的一部分并且可以被单独的拆分出来而不会使整体受影响。其通常表现为侧边栏或者被插入在该内容里。他们通常包含在工具条，例如来自词汇表的定义。也可能有其他类型的信息，例如相关的广告、笔者的传记、web 应用程序、个人资料信息，或在博客上的相关链接。
  * hgroup：代表一个段的标题。它规定了在文档轮廓里（the outline of the document ）的单一标题是它所属的隐式或显式部分的标题。
 
-#### 音频和视频
-  ### audio
- ##### 属性
+## 音频和视频
+### audio
+##### 属性
 
   * autoplay
    布尔属性；如果指定（即使值为"false"！）；指定后，音频会马上自动开始播放，不会停下来等着数据载入结束。
@@ -72,7 +72,7 @@ volume
 
 备注： HTML 5 规范中，时间偏移量值的定义还没有完成，有可能会变更。
 
-   ##### 事件
+##### 事件
 ``` html
 <!-- Simple audio playback -->
 <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
@@ -94,7 +94,7 @@ Your browser does not support the <code>audio</code> element.
 </audio>
 ```
 
- ### video
+### video
 
   * autoplay
  布尔属性；指定后，视频会马上自动开始播放，不会停下来等着数据载入结束。
